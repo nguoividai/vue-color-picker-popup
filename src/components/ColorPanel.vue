@@ -79,7 +79,6 @@
       </template>
       <a href="javascript:;" class="one-color-toggle" @click="toggleMode"></a>
     </div>
-    <div class="one-color-action"></div>
   </div>
 </template>
 
@@ -93,5 +92,8 @@ export default {
 </script>
 
 <style scoped>
+.one-colorpanel {
+  z-index: 1010;
+  position: relative;
+}
 </style>
-
